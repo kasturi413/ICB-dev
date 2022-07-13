@@ -1,0 +1,16 @@
+{
+    "status": "ok",
+    "totalResults": 2,
+    "feeds": [
+        {
+            "userName": "User1",
+            "postImage": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+            "description": "This post is amazing"
+        },
+        {
+            "userName": "User2",
+            "postImage": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+            "description": "This post is also amazing"
+        }
+    ]
+}

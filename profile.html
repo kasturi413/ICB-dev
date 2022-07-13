@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="css/profile-css/style.css">
+    <link rel="stylesheet" href="css/profile-css/main.css">
+    <link rel="stylesheet" href="css/profile-css/header.css">
+
+</head>
+
+<body>
+   
+        
+    <nav>
+
+        <div class="hamBurger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <div class="userName">Username</div>
+        
+        <div class="profilePicture">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfAcQBipWyY0qIXJvbIEOnGmkvcXJBKA-3Yg&usqp=CAU" alt="">
+            <img class="check" src="images/check 1admin.png" alt="">
+        </div>
+    </nav>
+
+    <div class="sideBar">
+        <div class="sideItems">
+
+            <!-- Side Elements -->
+            <ul>
+                <a href="./index.html">Home</a>
+                <a href="./profile.html">Profile</a>
+                <a href="./trainings.html">My Training</a>
+                <a href="./events.html">My Events</a>
+                <a href="./donate.html">Donate</a>
+                <a href="./differenceIMade.html">Difference I Made</a>
+                <a href="./shareMyStory.html">Share My Story</a>
+                <a href="./addMarshalls.html">Add a Marshal</a>
+                <a href="./settings.html">Settings & Support</a>
+                <a href="./coreTeam.html">Contact Team</a>
+                <a href="./alert.html">Send an Alert</a>
+            </ul>
+            <div class="cross">
+                <img src="./images/cross.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <section class="range-slider">
+  
+        <div class="container-slide"></div>
+            <div class="range-slider-container-slide">
+                <input type="range" class="range" min="0" max="100" step="0.1" value="0">
+                <div class="percentage">
+                    <span>50%</span>
+                </div>
+            </div>
+ 
+    
+    
+        <script>
+
+            const rangeEl = document.querySelector('input')
+            const percentage = document.querySelector('.percentage')
+            const percentageSpan = document.querySelector('.percentage span')
+    
+    
+            range()
+    
+            rangeEl.addEventListener('input', range)
+    
+            function range () {
+                percentage.style.left = `${rangeEl.value}%`;
+                percentageSpan.innerText = `${rangeEl.value}%`;
+                percentage.style.filter = `hue-rotate(${rangeEl.value}deg)`
+            }
+
+        </script>
+
+</section>
+
+
+    <!-- Header Section -->
+
+    <header>
+        <div class="container grid grid-header">
+            <div class="profilePicture">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfAcQBipWyY0qIXJvbIEOnGmkvcXJBKA-3Yg&usqp=CAU" alt="">
+                <img class="check2" src="images/check 1admin.png" alt="">
+            </div>
+            </div>
+
+            <div class="user-details">
+                <div class="user-name-div">
+                    <span class="username">FullName</span>
+                 
+                   
+                    
+                </div>
+
+                <div class="numbers">
+                    <span class="post">Admin/Member/Volunteer</span>
+                    <span class="follower">Joined on 14th May</span>
+                </div>
+
+                <div class="name-div">
+                    <span class="name">WebApp | UI | Coding</span>
+                </div>
+
+                <div class="light-div">
+                    <span class="light-name">Interests</span>
+                </div>
+
+                <div class="bio-div">
+                    <p class="bio">
+                        I am a Coder💻<br>
+                        I am a WebApp👨‍💻<br>
+                        You can send Email📥<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <button class="btn follow-btn">Instagram</button>
+            <button class="btn follow2-btn">Telegram</button>
+       <!---   <button class="btn msg-btn">Connect<img src="images/user.png"></button>  --> 
+            <button id="btn-edit" class="profile-btn">Edit Profile</button>
+            <button id="save" class="save-btn">Save</button>
+            <button id="cancel" class="cancel-btn">Cancel</button>
+            <br><br><br><br><br><br>
+        </div>
+     
+    </header>
+
+
+    <!-- Main Content Section -->
+
+    <section id="edit" class="main-content d-flex">
+        <div class="container2 d-flex">
+            <div class="login-page d-flex">
+                <div class="form">
+                  <form id="form" class="register-form">
+                     <h1> Edit Profile</h1>
+                     <span class="line">
+                    <label>Email:</label>
+                    <input type="email" placeholder="Email"/>
+                </span>
+                <span class="line">
+                    <label>Phone:</label>
+                    <input type="phone" placeholder="phone"/>
+                </span>
+                <span class="line">
+                    <label>Bio:</label>
+                    <textarea placeholder="Type"></textarea>
+                </span>
+                  </form>
+                </div>
+              </div>
+          
+            
+
+           
+
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+
+  
+
+    <script src="js/profile-js/script.js"></script>
+    <script src="js/profile-js/sideBar.js"></script>
+</body>
+
+</html>

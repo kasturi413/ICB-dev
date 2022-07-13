@@ -1,0 +1,176 @@
+/* ------------------------------------------------- */
+/* Particular Event */
+/* ------------------------------------------------- */
+*{
+    font-family: roboto;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* banner */
+.peBanner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(224, 21, 24, 0.7) 23.44%, rgba(224, 21, 24, 0.14) 100%), url(https://static.independent.co.uk/2022/06/06/11/GettyImages-544673512.jpg?quality=75&width=1200&auto=webp);
+    /* height: 80px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.peHeading{
+    font-style: normal;
+    font-weight: 420;
+    font-size: 7.5vw;
+    letter-spacing: .7px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.peSub{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.3vw;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+/* details list  */
+.peDetails{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px;
+    padding-bottom: 0;
+    justify-content: space-between;
+}
+.peList p{
+    padding-left: 10px;
+    font-size: 3vw;
+}
+.peList{
+    align-items: center;
+    display: flex;
+    padding: 0 5px 8px 5px;
+    width: 40%;
+    font-size: 3.5vw;
+}
+
+/* Enroled members */
+.peEnrol{
+    width: 100%;
+}
+.peHead{
+    box-sizing: border-box;
+    background: #E01518;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #9E0002;
+}
+.peBody{
+    padding: 10px 0 10px 0;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(224, 21, 24, 0.9) 0%, rgba(217, 217, 217, 0.6) 100%);
+    border-bottom: 1px solid #D9D9D9;   
+    height: 100px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.peHead h2{
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 370;
+    font-size: 5vw;
+    padding: 3.5px 0 3.5px 12px;
+    color: #FFFFFF;
+}
+.peList i{
+    font-size: 4.5vw;
+}
+.eRow{
+    width: 100%;
+    display: flex;
+    padding: 0 5px 0 5px ;
+    align-items: center;
+    justify-content: center;
+}
+.eName,.eNum{
+    margin: 4px;
+    padding: 4px;
+    font-size: 4vw;
+    background: #D9D9D9;
+    border-radius: 4px;
+    width: 32%;
+}
+.peBody i{
+    padding-left: 4px;
+    font-size: 4.5vw;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .peDetails{
+        flex-flow: row nowrap;
+    }
+    .peList{
+        font-size: 2vw;
+    }
+    .peList i{
+        font-size: 3vw;
+    }
+    .peList p{
+        font-size: 2vw;
+    }
+    .peHeading{
+        margin-top: 40px;
+    }
+    .peSub{
+        margin-top: 10px;
+        margin-bottom: 35px;
+    }
+    /* Enroled */
+    .peHead h2{
+        font-size: 3.5vw;
+        padding: 6px 20px;
+    }
+    .peBody{
+        height: 250px;
+    }
+    .eName,.eNum{
+        width: 37%;
+        padding: 5px 10px;
+        font-size: 3vw;
+        margin: 6px;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .peSub{
+        padding-bottom: 5px;
+    }
+    .peList p{
+        font-size: 1.8vw;
+        margin: 7px 0;
+    }
+    .peHead h2{
+        font-size: 3vw;
+        padding: 10px 20px;
+    }
+    .peEnrol i{
+        font-size: 4vw;
+        margin-left: 5px;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

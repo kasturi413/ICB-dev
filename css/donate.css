@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:wght@100;300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-family: "Roboto", sans-serif;
+}
+body {
+  overflow: visible;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin-top: 70px;
+  flex-wrap: wrap;
+}
+.first-donate,
+.second-donate {
+  /* display: flex; */
+  width: 650px;
+  height: 30vh;
+  background: linear-gradient(
+      101.85deg,
+      rgba(255, 0, 0, 0.8) 23.96%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url(0348_637417051847316319.jpg);
+  border-radius: 20px;
+  margin: 20px;
+  font-size: 30px;
+}
+.donate {
+  position: relative;
+  top: 30%;
+  left: -30%;
+  font-size: 40px;
+  color: white;
+}
+.d-donate {
+  position: relative;
+  color: white;
+  top: 27%;
+  left: -33%;
+  font-size: 22px;
+}
+@media (max-width: 550px) {
+  .donate {
+    top: 30%;
+    left: -22%;
+    font-size: 32px;
+  }
+  .d-donate {
+    top: 27%;
+    left: -29%;
+    font-size: 16px;
+  }
+}

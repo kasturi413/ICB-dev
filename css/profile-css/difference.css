@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  .chartMenu {
+    width: 100vw;
+    height: 40px;
+    background: #1A1A1A;
+    
+  }
+  .chartMenu p {
+    padding: 10px;
+    font-size: 20px;
+  }
+  .chartCard {
+    width: 100%;
+    height: calc(100vh - 300px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .chartBox {
+    width: 700px;
+    padding: 20px;
+    border-radius: 20px;
+    background: white;
+  }
+
+  .Rank{
+    margin-right: 12%;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+h2{
+    margin-left: 19%;
+    font-size: 28px;
+}
+
+.col1 h3{
+    margin-top: 30px;
+    margin-left: 5%;
+}
+
+.col2 h3{
+
+    margin-top: 0px;
+    margin-left: 5%;
+
+}
+
+.col3 h3{
+
+    margin-top: 0px;
+    margin-left: 5%;
+}
+
+.col1{
+    width: 30%;
+    position: relative;
+}
+
+
+.col2{
+    width: 30%;
+    margin-top: -20px;
+}
+
+.col3{
+    width: 30%;
+    margin-top: -20px;
+}
+
+.Card{
+
+    margin-left: 24%;
+    margin-bottom: 50px;
+}
+
+.Card ul > li{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+ul{
+    position:relative;
+}
+
+.col1 p{
+    margin-left: 40px;
+}
+
+.Card .col1 .square1{
+    position: absolute !important;
+    background-color: #CB8FBD;
+    top:170px;
+    width: 8%;
+    height:9%;
+    left:0px;
+    border-radius: 5px;
+}
+
+.square2{
+    position: absolute;
+    background-color: #2EC5B6;
+    top:75px;
+    width: 8%;
+    height:9%;
+    left:0px;
+    border-radius: 5px;
+}
+
+.square3{
+    position: absolute;
+    background-color: #E01518;
+    top:25px;
+    width: 8%;
+    height:9%;
+    left:0px;
+    border-radius: 5px;
+}
+
+.square4{
+    position: absolute;
+    background-color: #41D950;
+    top:220px;
+    width: 8%;
+    height:9%;
+    left:0px;
+    border-radius: 5px;
+}
+
+.square5{
+    position: absolute;
+    background-color: #FFBE00;
+    top:120px;
+    width: 8%;
+    height:9%;
+    left:0px;
+    border-radius: 5px;
+}
+
+.square6{
+    position: absolute;
+    background-color: #d8d8d8;
+    top:265px;
+    width: 8%;
+    height:9%;
+    left:0px;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+
+    .body{
+    background-color: white !important;
+    }
+
+    .flex-row{
+        width: 100% !important;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    h2{
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-left: 25%;
+    }
+
+    .chartCard{
+        width: 100%;
+        height: calc(100vh - 400px);
+    }
+
+ 
+
+
+}
+
+@media (min-width: 1500px) and (max-width: 1600px) {
+
+    h2{
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-left: 25%;
+    }
+
+    .chartCard{
+        width: 50%;
+        height: calc(100vh - 700px);
+        margin-left: 25%;
+    }
+
+    .chartMenu {
+        width: 170vw;
+        height: 90px;
+        background: #1A1A1A;
+        margin-left: 50%;
+        
+      }
+
+}
+
+@media (max-width:300px) {
+
+
+    h2{
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-left: 25%;
+    }
+
+    .chartCard{
+        width: 100%;
+        height: calc(100vh - 900px);
+    }
+
+
+}
+

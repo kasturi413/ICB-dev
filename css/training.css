@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:wght@100;300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-family: "Roboto", sans-serif;
+}
+body {
+  overflow: visible;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 70px;
+}
+#training {
+  flex: 50%;
+  font-size: 25px;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+#completed {
+  flex: 50%;
+  font-size: 25px;
+  align-items: center;
+  text-align: center;
+  background: #e8e8e8;
+  padding: 10px;
+  cursor: pointer;
+}
+#completed-training {
+  display: none;
+  width: 70%;
+  height: 6vh;
+  border: 2px solid #000000;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
+  margin: 50px auto;
+}
+#ongoing-training {
+  display: flex;
+  width: 70%;
+  height: 6vh;
+  border: 2px solid #000000;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
+  margin: 50px auto;
+}
+.c-t-text {
+  font-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  font-weight: 100;
+  opacity: 50%;
+}
+.download,
+.play {
+  display: flex;
+  width: 20%;
+  height: 6vh;
+  background: #d9d9d9;
+  border: 2px solid #000000;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.download img {
+  width: 30px;
+}
+.play img {
+  display: flex;
+  width: 30px;
+}
+.book-now {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+h2 {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+.images {
+  height: 30vh;
+  width: 450px;
+  margin: 20px;
+  border-radius: 15px;
+  background: #464646;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, #0000003b 0px 3px 6px;
+}

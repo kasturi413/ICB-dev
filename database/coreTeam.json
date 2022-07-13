@@ -1,0 +1,36 @@
+{
+    "status": "ok",
+    "totalResults": 5,
+    "coreTeamMembers": [
+        {
+            "Name": "Atharv Sawant",
+            "Position": "President",
+            "Telegram": "https://t.me/atharvs16escape",
+            "Instagram": "https://www.instagram.com/atharvs16escape/" 
+        },
+        {
+            "Name": "Mandeep Dalavi",
+            "Position": "Vice President",
+            "Telegram": "https://t.me/MandeepDalavi",
+            "Instagram": "https://www.instagram.com/mandeepdalavi"
+        },
+        {
+            "Name": "Dhanashree Patil",
+            "Position": "Treasurer",
+            "Telegram": "https://t.me/dhanashreepatil2801",
+            "Instagram": "https://www.instagram.com/dhanashree_patil_2801/"
+        },
+        {
+            "Name": "Natasha Shaikh",
+            "Position": "Project Director",
+            "Telegram": "https://t.me/",
+            "Instagram": "https://www.instagram.com/"
+        },
+        {
+            "Name": "Shreya Salunkhe",
+            "Position": "Event Manager",
+            "Telegram": "https://t.me/Shre_sa",
+            "Instagram": "https://www.instagram.com/shre.sa_09/"
+        }
+    ]
+}
